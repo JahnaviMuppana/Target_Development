@@ -11,6 +11,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @ComponentScan({"com.cab.allocation.controller", "com.cab.allocation.service"})
 @EntityScan(basePackages = {"com.cab.allocation.dao"})
 @EnableJpaRepositories(basePackages = {"com.cab.allocation.dao"})
-public class WebConfig {
+public class AppConfig {
 
 }

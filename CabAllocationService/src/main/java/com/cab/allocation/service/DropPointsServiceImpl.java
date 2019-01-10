@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.cab.allocation.dao.mapper.DropPoints;
+import com.cab.allocation.dao.model.DropPoints;
 import com.cab.allocation.dao.repo.DropPointsRepository;
 import com.cab.allocation.model.CustomException;
 

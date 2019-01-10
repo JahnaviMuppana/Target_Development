@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.cab.allocation.dao.mapper.TeamMember;
+import com.cab.allocation.dao.model.TeamMember;
 import com.cab.allocation.dao.repo.TeamMemberRepository;
 import com.cab.allocation.model.CustomException;
 

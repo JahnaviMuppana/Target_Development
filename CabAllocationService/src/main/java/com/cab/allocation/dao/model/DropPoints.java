@@ -1,4 +1,4 @@
-package com.cab.allocation.dao.mapper;
+package com.cab.allocation.dao.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

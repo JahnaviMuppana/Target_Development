@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.cab.allocation.dao.mapper.Cab;
-import com.cab.allocation.dao.mapper.DropPoints;
-import com.cab.allocation.dao.mapper.TeamMember;
+import com.cab.allocation.dao.model.Cab;
+import com.cab.allocation.dao.model.DropPoints;
+import com.cab.allocation.dao.model.TeamMember;
 import com.cab.allocation.model.CustomException;
 import com.cab.allocation.model.DropPointsVO;
 import com.cab.allocation.model.StatusVO;
@@ -23,7 +23,7 @@ import com.cab.allocation.service.TeamMemberRegisterServiceImpl;
 
 @RestController
 @RequestMapping("/target")
-public class CabAllocationServiceController 
+public class CabAllocationAppController 
 {
 	@Autowired
 	private TeamMemberRegisterServiceImpl teamMemberRegisterService;

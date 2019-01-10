@@ -2,7 +2,7 @@ package com.cab.allocation.service;
 
 import java.util.List;
 
-import com.cab.allocation.dao.mapper.DropPoints;
+import com.cab.allocation.dao.model.DropPoints;
 import com.cab.allocation.model.CustomException;
 
 public interface DropPointsService {
